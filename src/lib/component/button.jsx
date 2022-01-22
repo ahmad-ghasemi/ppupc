@@ -50,7 +50,7 @@ export default function Button({
         <button
           className={className}
           onClick={onClick}
-          className={`$button_default ${className}`}
+          className={`button_default ${className}`}
           style={{
             backgroundColor: '#fff',
             color: '#212529',

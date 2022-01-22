@@ -72,7 +72,7 @@ function Button(_ref) {
   }) : /*#__PURE__*/_react.default.createElement("button", {
     className: className,
     onClick: onClick,
-    className: "$button_default ".concat(className),
+    className: "button_default ".concat(className),
     style: {
       backgroundColor: '#fff',
       color: '#212529'

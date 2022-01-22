@@ -33,7 +33,8 @@ function popup(_ref) {
     className: 'footer_pupup'
   }, /*#__PURE__*/_react.default.createElement(_button.default, {
     onClick: onCancel,
-    className: 'btn_popup'
+    className: 'btn_popup',
+    type: 'warning'
   }, cancel), /*#__PURE__*/_react.default.createElement(_button.default, {
     onClick: onOk,
     className: 'btn_popup',

@@ -19,7 +19,11 @@ export default function popup({
           <div className={visible ? 'popup_box_show' : 'popup_box_none'}>
             <p className={'title_popup'}>{title}</p>
             <div className={'footer_pupup'}>
-              <Button onClick={onCancel} className={'btn_popup'}>
+              <Button
+                onClick={onCancel}
+                className={'btn_popup'}
+                type={'warning'}
+              >
                 {cancel}
               </Button>
               <Button onClick={onOk} className={'btn_popup'} type={'danger'}>
