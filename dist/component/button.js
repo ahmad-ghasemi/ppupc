@@ -7,8 +7,6 @@ exports.default = Button;
 
 var _react = _interopRequireDefault(require("react"));
 
-var _buttonModule = _interopRequireDefault(require("../../styles/button.module.css"));
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 const types = [{

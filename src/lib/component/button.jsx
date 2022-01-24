@@ -1,5 +1,4 @@
 import React from 'react'
-import style from '../../styles/button.module.css'
 
 const types = [
   { type: 'primary', bgColor: '#007bff', color: 'white' },
